@@ -2,12 +2,12 @@
 
 # Framework Patcher V2
 
-[![Android 15 Framework Patcher](https://github.com/Jefino9488/FrameworkPatcherV2/actions/workflows/android15.yml/badge.svg)](https://github.com/Jefino9488/FrameworkPatcherV2/actions/workflows/android15.yml)
-[![Android 16 Framework Patcher](https://github.com/Jefino9488/FrameworkPatcherV2/actions/workflows/android16.yml/badge.svg)](https://github.com/Jefino9488/FrameworkPatcherV2/actions/workflows/android16.yml)
+[![Android 15 Framework Patcher](https://github.com/FrameworksForge/FrameworkPatcher/actions/workflows/android15.yml/badge.svg)](https://github.com/FrameworksForge/FrameworkPatcher/actions/workflows/android15.yml)
+[![Android 16 Framework Patcher](https://github.com/FrameworksForge/FrameworkPatcher/actions/workflows/android16.yml/badge.svg)](https://github.com/FrameworksForge/FrameworkPatcher/actions/workflows/android16.yml)
 
 **Advanced Android Framework Patching System with Multi-Platform Support**
 
-[Features](#features) • [Quick Start](#quick-start) • [Documentation](#documentation) • [DeepWiki](https://deepwiki.com/Jefino9488/FrameworkPatcherV2) • [Support](#support)
+[Features](#features) • [Quick Start](#quick-start) • [Documentation](#documentation) • [DeepWiki](https://deepwiki.com/FrameworksForge/FrameworkPatcher) • [Support](#support)
 
 </div>
 
@@ -27,13 +27,13 @@ supporting Android 15 and 16
 
 ## Quick Start
 
-### Telegram Bot (Recommended)
+### [Telegram Bot](https://github.com/FrameworksForge/FrameworkPatcherBot) (Recommended)
 
 1. Message the bot and send `/start_patch`.
 2. Follow the interactive prompts to select version and features.
 3. Upload your JAR files.
 
-### Web Interface
+### [Web Interface](https://github.com/FrameworksForge/FrameworkPatcherWeb)
 
 Visit [framework-patcher-v2.vercel.app](https://framework-patcher-v2.vercel.app) to generate modules via a user-friendly
 UI.
@@ -41,8 +41,8 @@ UI.
 ### Command Line
 ```bash
 # Clone repository
-git clone https://github.com/Jefino9488/FrameworkPatcherV2.git
-cd FrameworkPatcherV2
+git clone https://github.com/FrameworksForge/FrameworkPatcher.git
+cd FrameworkPatcher
 
 # Run patcher
 ./scripts/patcher_a15.sh 35 <device_name> <version> [OPTIONS]
@@ -62,7 +62,7 @@ Comprehensive documentation is available in the [`docs/`](docs/README.md) direct
 
 - **Telegram**: [@Jefino9488](https://t.me/Jefino9488)
 - **Support Group**: [@codes9488](https://t.me/codes9488)
-- **GitHub Issues**: [Report Issues](https://github.com/Jefino9488/FrameworkPatcherV2/issues)
+- **GitHub Issues**: [Report Issues](https://github.com/FrameworksForge/FrameworkPatcher/issues)
 
 ## License
 
